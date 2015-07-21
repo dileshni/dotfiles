@@ -2,11 +2,19 @@
 	ui = true
 [alias]
 	co = checkout
+	nb = checkout -b
 	pr = pull --rebase
 	aa = add -A
-	amend = commit --amend
+	br = branch
+	ci = commit
+	st = status
+	df = diff
+	dc = diff --cached
+	am = commit --amend
 	issue = checkout -t origin/master -b
 	cleanup = !git branch --merged | grep -v "master" | xargs git branch -D
+	graph = log --graph --decorate --pretty=oneline --abbrev-commit
+	tree = log --all --decorate --stat --oneline --graph --color
 [push]
 	default = current
 [core]

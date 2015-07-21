@@ -18,6 +18,11 @@ set nocompatible
   " Highlight the line that the cursor is on
   set cursorline
 
+  " Mouse scrolling in a terminal
+  set mouse=a
+  map <ScrollWheelUp> <C-Y>
+  map <ScrollWheelDown> <C-E>
+
   " Underline spelling mistakes
   set spell
 
