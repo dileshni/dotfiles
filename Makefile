@@ -11,7 +11,7 @@ git:
 
 vim:
 	rm -f ~/.vimrc
-	rm -f ~/.vim
+	rm -rf ~/.vim
 	ln -s $(CWD)/vimrc ~/.vimrc
 	ln -s $(CWD)/vim ~/.vim
 

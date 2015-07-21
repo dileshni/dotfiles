@@ -224,7 +224,7 @@ set nocompatible
     set runtimepath+=~/.vim/bundle/neobundle.vim/
   endif
 
-  call neobundle#rc(expand('~/.vim/bundle/'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
 
   " Let NeoBundle manage itself
   NeoBundleFetch 'Shougo/neobundle.vim'
@@ -292,6 +292,11 @@ set nocompatible
 
   " Visually expand regions
   NeoBundle 'terryma/vim-expand-region'
+
+  call neobundle#end()
+
+  " Required:
+  filetype plugin indent on
 
   " Let NeoBundle ensure everything is properly installed
   NeoBundleCheck
