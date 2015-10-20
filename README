@@ -1,7 +1,7 @@
 
     =>  Installation & neobundle
 
-        $ git clone --recursive https://github.com/gigr/dotfiles.git
+        $ git clone --recursive https://github.com/dileshni/dotfiles.git
         $ cd dotfiles && make all
         $ git submodule update --init 
 
