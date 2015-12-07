@@ -297,6 +297,9 @@ set nocompatible
 
   " Visually expand regions
   NeoBundle 'terryma/vim-expand-region'
+  
+  " Fold things
+  NeoBundle 'tmhedberg/SimpylFold'
 
   call neobundle#end()
 
